@@ -10,14 +10,14 @@ if (mapboxApiToken == null) {
 
 android {
     namespace 'com.mapbox.demo.searchwithmaps'
-    compileSdk 33
+    compileSdk 36
 
     defaultConfig {
         resValue "string", "mapbox_access_token", mapboxApiToken
 
         applicationId "com.mapbox.demo.searchwithmaps"
         minSdk 21
-        targetSdk 33
+        targetSdk 36
         versionCode 1
         versionName "1.0"
 
